@@ -1,5 +1,10 @@
-function scuberGreetingForFeet(){
+function scuberGreetingForFeet(distance){
   // Write your code here!
+  let message;
+  if (distance <= 400){
+    message = "This one is on me!";
+    return message;
+  }
 }
 
 function ternaryCheckCity(){
